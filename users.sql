@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 31-10-2022 a las 23:02:13
+-- Tiempo de generación: 23-11-2022 a las 07:29:26
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.4.9
 
@@ -44,7 +44,9 @@ INSERT INTO `users` (`ID`, `NAME`, `SURNAME`, `USER`, `PASSWORD`) VALUES
 (2, 'Matias', 'Rodes', 'Mati456', '$2y$10$AOcdqw1unLnM.izwSCZyUuHlO6iSThqGqQ3NSo0XHOGZTP89Wqg3i'),
 (3, 'Esteban', 'Vazquez', 'Kyto789', '$2y$10$dJp6LsIqC1FKPDLp.iqg9OYlliCAFOjKoM7.l041y8LHn22iFbY7y'),
 (4, 'Fulano', 'De Tal', 'ejemplo', '$2y$10$cuQiUk3Zc1SguVzeDRlPBOHTOrrCtW3im2ZWYxE2h3kwsnG/Qd2em'),
-(5, 'Nehuen', 'Giacone', 'nee', '$2y$10$6NtwSvqXCOntYIIdUUdVVeuvFx5nNIV8HW0PyXKqbO56OlpAoph/W');
+(5, 'Nehuen', 'Giacone', 'nee', '$2y$10$6NtwSvqXCOntYIIdUUdVVeuvFx5nNIV8HW0PyXKqbO56OlpAoph/W'),
+(6, 'Ana', 'Thompson', 'Ana', '$2y$10$6zB2lr8./OCGYaYRNEUK5OizZxyZrRyrilTCoJ/jQo4vypBG2awIi'),
+(7, 'Esteban gabriel', 'Vazquez', 'kyto', '$2y$10$DiKa0Bt6ZVSLAt17BdE9q.UIw8fEHl8fMfAcoGOR.QMZjzUkRNske');
 
 --
 -- Índices para tablas volcadas
@@ -64,7 +66,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
